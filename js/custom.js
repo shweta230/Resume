@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 ////////////////SKILLS HIGHLIGHT ANIMATION//////////////////
 $(".talview").on("click",function(){    
-    $(".talview").attr('src','img/tribal/t_talview3.png');
+    $(".talview").attr('src','/t_talview3.png');
     $(".talview").removeClass("highlight"); 
     $(".talview").addClass("unhighlight");     
   });
