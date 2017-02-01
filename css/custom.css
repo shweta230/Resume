@@ -117,13 +117,10 @@
     margin-left: 0px;
 }
 .section_three {
-    /*height:100vh !important;*/
-    
-    background-color: #59442d !important;
-    background-image: url(/img/sec3_bg.jpg);
+    /*height:100vh !important;*/    
+    background-color: #59442d !important;    
     background-repeat: no-repeat;
-    /*background-position: 100% 100%;*/
-    
+    /*background-position: 100% 100%;*/    
     background-size: 100% auto!important;
 }
 .skill {
@@ -233,12 +230,12 @@
     content: url("/img/t_talview3.png");
     transition: all 0.5s ease-in-out;
 }
-.id {
+/*.id {
     content: url("/img/id.png");
 }
 .id:hover {
     content: url("/img/id2.png");
-}
+}*/
 /*MODAL*/
 
 .modal.left.fade .modal-dialog {
@@ -288,7 +285,7 @@
 }
 .modal-body {
     padding: 30px;
-    background-image: url(img/sidebar_bg.jpg);
+    background-image: url(/img/sidebar_bg.jpg);
     background-size: 100%;
     height: 70vh;
     overflow-y: scroll;
