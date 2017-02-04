@@ -20,7 +20,6 @@ $(".talview").on("click",function(){
 
 
 
-
 });
 
 ////////////////SOFTWARE NAME ON HOVER//////////////////
@@ -31,5 +30,22 @@ $(".talview").on("click",function(){
   $('.skill_img').on('mouseleave',function(){
     $($(this).attr('src',$(this).data('target-src1')));     
     });
-  });
+  
  ////////////////SOFTWARE NAME ON HOVER END//////////////////
+});
+///////////////////////////CHANGE BULL IMAGE IN IE//////////////////////////////////////
+ document.addEventListener('DOMContentLoaded',function msieversion() {
+
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+
+    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+    {
+        $('.bull_ie').attr('src','js/bull.png')
+    }
+    
+    return false;
+
+
+ });
+//////////////////////////////////////////////////////////////////////////

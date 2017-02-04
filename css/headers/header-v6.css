@@ -102,7 +102,7 @@
 .header-v6 .navbar-brand {
 	height: 93px;
 	max-height: 93px;
-	line-height: 65px;
+	/*line-height: 65px;*/
 }
 
 .header-v6 .navbar-brand img {
