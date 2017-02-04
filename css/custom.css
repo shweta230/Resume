@@ -24,7 +24,8 @@
 }
 .navbar-brand>img{
 	display: inline-block;
-	width: 60%!important;
+	width: 45%!important;
+	margin-top: 10px;
 }
 .download-btn{
 	line-height: 4vh!important;
@@ -283,15 +284,15 @@ content: url("/img/id.png");
 .id:hover {
 content: url("/img/id2.png");
 }*/
-/*MODAL*/
-.modal.left.fade .modal-dialog {
+/*t-MODAL*/
+.t-modal.left.fade .modal-dialog {
 animation: fadeInLeft 0.5s ease-in-out;
 -moz-animation: fadeInLeft 0.5s ease-in-out;
 -webkit-animation: fadeInLeft 0.5s ease-in-out;
 -o-animation: fadeInLeft 0.5s ease-in-out;
 margin: 0;
 }
-.modal-content {
+.t-modal-content {
 position: relative;
 background-color: #59452d;
 -webkit-background-clip: padding-box;
@@ -305,60 +306,60 @@ box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
 height: 100vh;
 width: 20vw;
 }
-.modal-body h4,
-.modal-body h5 {
+.t-modal-body h4,
+.t-modal-body h5 {
 color: #fff;
 }
-.modal-body p {
+.t-modal-body p {
 color: #fff;
 }
-.modal-header {
+.t-modal-header {
 border-bottom: 1px dotted #fcba19;
 background-color: #bf2129;
 height: 20vh;
 }
-.modal-title {
-margin-top: 30px;
+.t-modal-title {
+padding-top: 30px;
 color: #fff;
 text-align: center;
 font-family: 'Source Sans Pro' sans-serif;
 }
-.modal-header h5 {
-color: #fff;
+.t-modal-header h5 {
+color: #fcba19;
 text-align: center;
 font-family: 'Source Sans Pro', sans-serif;
-line-height: 0;
+line-height: 0.5em;
 }
-.modal-body {
+.t-modal-body {
 padding: 30px;
 background-image: url(img/sidebar_bg.jpg);
 background-size: 100%;
 height: 70vh;
 overflow-y: scroll;
 }
-.modal-body h5 {
+.t-modal-body h5 {
 color: #fcba19;
 text-transform: uppercase;
 }
-.modal-body h6 {
+.t-modal-body h6 {
 color: #fff;
 text-transform: uppercase;
 }
-.modal-body p {
+.t-modal-body p {
 /*text-align:justify;*/
 font-size: 1.1em;
 color: white;
 font-family: 'Source Sans Pro', sans-serif;
 font-weight: lighter;
 }
-.modal-footer {
+.t-modal-footer {
 border-top: 1px dotted #fcba19;
 bottom: 0;
 background-color: #bf2129;
 display: block;
 height: 10vh;
 }
-.modal-footer button {
+.t-modal-footer button {
 background-color: #fcba19;
 border-radius: 5px;
 display: block;
@@ -544,8 +545,8 @@ margin-top:10vh; padding-left:0;
 }
 .navbar-brand>img{	
 	/*width: 25%!important;*/
-	margin-top: 5px;
-	width: 30%!important;
+	margin-top: 7px;
+	width: 20%!important;
 
 }
 .section_one {   
