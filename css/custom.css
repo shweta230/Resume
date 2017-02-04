@@ -44,16 +44,17 @@ background-color: #fcf2ed !important;
 }
 .section_one div h2 {
 font-family: Source Sans Pro;
-font-size: 4em;
+font-size: 3em;
 text-align: center;
 color: #261c21;
 }
 .section_one div h1 {
-font-family: 'Freckle Face', cursive;
+font-family: 'Sansita', sans-serif;
+/*font-weight: bold;*/
 font-size: 7em;
 text-align: center;
 color: #bf2128;
-margin-top: 30px;
+/*margin-top: 30px;*/
 }
 .section_one div h1:nth-of-type(2) {
 font-size: 5em;
@@ -61,8 +62,8 @@ margin-top: 0.5em;
 margin-bottom: 0;
 }
 .section_one div h1 span b {
-font-family: 'Freckle Face', cursive;
-font-size: 0.9em !important;
+font-family: 'Sansita', sans-serif;
+font-size: 0.7em !important;
 text-align: center;
 color: #bf2128;
 line-height: 1.2em;
@@ -71,6 +72,13 @@ line-height: 1.2em;
 /*margin-top:  !important;*/
 display: block;
 margin: auto;
+}
+.about_me{
+	margin-top: 50px;
+}
+.cd-headline.slide span {
+    display: inline-block;
+    padding: 0;
 }
 .rotator {
 display: flex;
@@ -571,14 +579,14 @@ margin-bottom: 0;
 width: 100%;
 }
 .section_one div h1 {
-font-family: 'Freckle Face', cursive;
+font-family: 'Sansita', sans-serif;
 font-size: 5em;
 text-align: center;
 color: #bf2128;
 margin-top: 0px;
 }
 .section_one div h1 span b {
-font-family: 'Freckle Face', cursive;
+font-family: 'Sansita', sans-serif;
 font-size: 0.5em !important;
 text-align: center;
 color: #bf2128;
