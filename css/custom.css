@@ -39,7 +39,7 @@
 	background-color:#fdd165!important;
 }
 }
-@media(max-width:991px){
+
 .section_one {
 height: 77vh !important;
 background-color: #fcf2ed !important;
@@ -557,7 +557,9 @@ margin-top:10vh; padding-left:0;
 	margin-top: 7px;
 	width: 20%!important;
 
+	}
 }
+@media(max-width:991px){
 .section_one {   
 background-color: #fcf2ed !important;
 height: 100% !important;
